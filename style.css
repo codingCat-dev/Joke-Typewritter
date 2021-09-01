@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 120rem;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.15rem;
+  line-height: 1.7;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.text-box {
+  margin: 2rem 0;
+}
+.text-box h3 {
+  text-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.joke-box {
+  width: 95%;
+  margin: auto;
+  border-radius: 5rem 0;
+  height: 70vh;
+  background-color: #222;
+  color: #f1f7ed;
+  font-size: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.joke {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+  width: 15rem;
+  padding: 1rem;
+  margin: 5rem;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  background-color: #222;
+  color: #f1f7ed;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2rem 0;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translateY(-5%);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.btn:active {
+  transform: translateY(2%);
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.created {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.5s ease, font-size 0.5s ease;
+}
+.created:hover {
+  font-size: 1.2rem;
+  color: #222;
+}
